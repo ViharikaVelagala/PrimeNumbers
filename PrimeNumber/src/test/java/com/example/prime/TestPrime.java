@@ -1,10 +1,10 @@
-package pkg;
+package com.example.prime;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import prime.PrimeNumber;
+import com.example.prime.PrimeNumber;
 public class TestPrime {
 
 	@Test

@@ -1,4 +1,4 @@
-package prime;
+package com.example.prime;
 
 import java.util.Scanner;
 
