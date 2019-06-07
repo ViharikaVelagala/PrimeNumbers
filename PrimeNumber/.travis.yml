@@ -1,0 +1,22 @@
+# project language 
+language: java
+
+jdk:
+  - oraclejdk8
+  
+cache: 
+   directories: 
+   - $HOME/.m2
+   
+sudo: enabled
+
+dist: trust
+
+branches: 
+  only: 
+  - master
+  - develop
+  - develop\d+.*$/
+  
+script:
+  - mvn clean test package
